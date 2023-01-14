@@ -47,7 +47,7 @@ sites:
 
 `vagrant up` 
 
-4.
+5.
 
 Зайти на виртуалку через терминал
 
@@ -63,7 +63,7 @@ sites:
 
 для установки конкретной версии laravel `composer create-project laravel/laravel example-app "8.5.*"`
 
-5.
+6.
 
 Проверить доступность страницы проекта зайдя на неё по настроенному имени - `laravel.loc/`
 
