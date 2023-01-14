@@ -43,9 +43,7 @@ sites:
 
 ***Убедится что антивирус отключен***
 
-`git checkout release`
-
-`vagrant up --provision`
+`vagrant up` 
 
 4.
 
