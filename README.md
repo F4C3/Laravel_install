@@ -39,6 +39,8 @@ sites:
 
 Запускать сборку виртуальной машины из терминала VSCode
 
+``Убедится что антивирус отключет``
+
 `git checkout release`
 
 `vagrant up --provision`
