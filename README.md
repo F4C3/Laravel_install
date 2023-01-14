@@ -11,7 +11,9 @@
 
 1.
 
-Создайте директорию будущей виртуальной машины и скачать с помощью GIT репозиторий с Homested - `git clone https://github.com/laravel/homestead.git`
+Начиная с 13-той версии Homestead перестал поддерживать Virtual Box. Теперб нужно заходить на страницу `https://github.com/laravel/homestead.git` далее в tags и выбирать версию ниже 13-той. Выбрать Source code.zip
+
+Создайте директорию будущей виртуальной машины и закинуть файлы из архива в неё
 
 2.
 
@@ -58,6 +60,8 @@ sites:
 Выполнить команду по установке Laravel с точкой в конце что бы не создавалась дочерняя папка
 
 `composer create-project laravel/laravel .`
+
+для установки конкретной версии laravel `composer create-project laravel/laravel example-app "8.5.*"`
 
 5.
 
